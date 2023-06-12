@@ -25,5 +25,5 @@ while take_query
     puts "invalid number of movies"
     return
   end
-  puts movies_db.query(cast_name, num_top_movies_of_actor).to_s
+  puts movies_db.query_by_actor_name(cast_name, num_top_movies_of_actor).to_s
 end
